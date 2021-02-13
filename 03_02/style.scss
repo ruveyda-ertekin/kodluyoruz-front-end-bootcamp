@@ -1,0 +1,261 @@
+
+  .left {
+    display: contents;
+  }
+  
+  
+  .nav {
+    margin-top: 2px;
+
+    &-wrap {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 62px;
+      padding-bottom: 130px;
+
+     
+    }
+
+    &__item {
+      margin-right: 40px;
+      font-family: "Avenir",sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 160%;
+      color: #4B5D68;
+      text-decoration: none;
+
+
+      &--active {
+        font-weight: 800;
+        color: #212353;
+          
+      }
+
+      &--active:hover {
+        color:brown ;
+
+      }
+
+      &__btn {
+          background: #FFFFFF;
+          box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+          border-radius: 50px;
+          padding: 17px 29px;
+          text-decoration: none;
+          font-family: "Avenir", sans-serif;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 16px;
+          line-height: 160%;
+          align-items: center;
+          letter-spacing: 0.005em;
+          color: #212353;
+          padding: 17px 29px;
+          
+        }
+      }
+        
+    }
+
+    
+  .title {
+    font-family: "Helvetica", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    color: #212353;
+    margin-bottom: 50px;
+
+
+  }
+  .little-title {
+    font-family: "Helvetica", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    align-items: center;
+    color: #212353;
+    
+  }
+  
+  .comment {
+    font-family: "Avenir", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+    margin-bottom: 50px;
+  }
+  
+  
+  
+  .learn-more {
+    background: #9C69E2;
+    border: none;
+    border-radius: 50px;
+    padding: 16px 37px ;
+    font-family: "Avenir", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+
+   &--pink {
+    background: #F063B8;
+   }
+  }
+  
+  .one {
+    position: relative;
+    margin-bottom: 99px;
+  }
+
+  .right-img {
+    position: absolute;
+    width: 885px;
+    height: 468px;
+    left: -266px;
+    
+  }
+
+  .two .container {
+    border: 1px solid black;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    display: block;
+    width: 1117px;
+    height: 560px;
+    border: none;
+    
+  }
+
+  .three .container .center {
+    margin-top: 150px;
+    margin-bottom: 178px;
+    text-align: center;
+    .comment {
+      margin-top: 47px;
+    }
+  }
+  
+
+  .card {
+    font-style: normal;
+    font-weight: normal;
+
+    &-title {
+      font-family: "Helvetica", sans-serif;
+      font-size: 24px;
+      line-height: 130%;
+      display: flex;
+      align-items: center;
+      color: #212353;
+    }
+    &-text {
+      font-family: "Avenir", sans-serif;
+      font-size: 16px;
+      line-height: 160%;
+      color: #4B5D68;
+    }
+  }
+  
+  .btn-primary {
+    font-family: "Avenir", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #212353;
+    text-decoration: none;
+    display: inline;
+
+  }
+  
+
+
+    .last-btn {
+      background: #FFFFFF;
+      box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+      border-radius: 50px;
+      padding: 17px 29px;
+      text-decoration: none;
+      font-family: "Avenir", sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 16px;
+      line-height: 160%;
+      
+      letter-spacing: 0.005em;
+      color: #212353;
+      padding: 17px 29px;
+    }
+    
+    
+    
+  @media screen and (max-width: 576px) {
+   
+    .title {
+      color: rgba(102, 102, 32, 0.692);
+    }
+    .little-title {
+      color: brown;
+    }
+  }
+
+  .list {
+    font-family: "Avenir", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 250%;
+    color: #212353;
+  }
+
+  .nav-desc {
+    font-family: "Avenir", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 160%;
+    color: #212353;
+  }
+
+  .address {
+    font-family: "Avenir", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+  }
+
+  .contact {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: #212353;
+  }
+
+  .left {
+    flex: auto;
+  }
+  
+  
+  
+  

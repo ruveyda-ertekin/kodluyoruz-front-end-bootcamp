@@ -1,0 +1,263 @@
+:root {
+  --title-color: #FA5652;
+  --little-title-color: #035755;
+  --hover-bgc: #0a999749;
+  --text-family: Red Hat Display;
+  --btn-bgc:  #FF383D;
+  --comment-color : #4B4F51;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: rgba(206, 95, 31, 0.548);
+    color: white;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgba(68, 168, 55, 0.582);
+    color: white;
+  }
+}
+
+
+.header {
+  margin-top: 52px;
+}
+
+.header .container {
+  margin-bottom: 411px;
+  padding: 0px;
+}
+
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -53px;
+}
+
+.nav-wrap::before {
+  content: "";
+  position: absolute;
+  top: 132px;
+  left: 45%;
+  height: 6px;
+  width: 6px;
+  background-color: var(--title-color);
+  border-radius: 100%;
+}
+
+.nav-wrap .nav {
+  font-family: Gelion, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 40px;
+  color: var(--little-title-color);
+}
+
+.nav-wrap .nav__item {
+  margin: 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+  transition: 1s;
+  color: var(--little-title-color);
+}
+
+.nav-wrap .nav__item:hover {
+  box-shadow: 0 5px 10px black;
+  border-radius: 46px;
+  padding: 16px 45px;
+  background-color: var(--hover-bgc);
+  color: honeydew;
+  font-weight: bold;
+}
+
+.nav-wrap .nav__item--red {
+  color: var(--btn-bgc);
+  padding-right: 22px;
+}
+
+
+.nav-wrap .nav__item__button {
+  border: 2px solid #FB4C47;
+  box-sizing: border-box;
+  border-radius: 46px;
+  color: var(--btn-bgc);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 16px 45px;
+  margin: 30px;
+  transition: 1s;
+}
+
+.nav-wrap .nav__item__button:hover {
+  background-color: var(--hover-bgc);
+  font-weight: bold;
+}
+
+.title {
+  color: var(--title-color);
+  font-family: var(--text-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.little-title {
+  color: var(--little-title-color);
+  font-family: var(--text-family);
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 52px;
+  line-height: 39,04px;
+}
+
+.comment {
+  color: var(--comment-color);
+  font-family: Gelion, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 190%;
+  text-transform: capitalize;
+}
+
+.hero .container .hero__img {
+  width: 100%;
+  height: 100%;
+  left: 863px;
+  top: 147px;
+  padding-bottom: 100px;
+}
+
+
+.button {
+  background: var(--btn-bgc);
+  box-shadow: 0px 8px 87px rgba(0, 0, 0, 0.1);
+  border: 2px solid #FB4C47;
+  border-radius: 65px;
+  color: #FFFFFF;
+  font-family: Gelion, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 29px;
+  padding: 16px 45px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.heroTwo .container .title {
+  font-size: 29px;
+  line-height: 124%;
+  color: #FA5652;
+}
+
+.heroTwo .container .comment {
+  font-size: 20px;
+  line-height: 215%;
+}
+
+.herothree .container .card {
+  display: inline-block;
+  position: relative;
+  background: #FFFFFF;
+  box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+  text-align: center;
+  height: 32rem;
+  padding :10px;
+  border-bottom: 5px solid #FA5652;
+  margin-bottom: 100px;
+}
+
+.herothree .container .comment {
+  font-size: 18px;
+  line-height: 215%;
+}
+
+.herothree .container .little-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 147%;
+}
+
+.card .comment {
+  font-size: 18px;
+  line-height: 185%;
+  text-transform: capitalize;
+  color: #4B4F51;
+}
+
+input {
+  background: #FFFFFF;
+  box-shadow: 0px 8px 80px rgba(0, 0, 0, 0.06);
+  border-radius: 57px;
+  width: 790px;
+  height: 114px;
+  border: none;
+  outline: none;
+}
+
+input::placeholder {
+  font-family: Gelion, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #758681;
+  padding-left: 40px;
+}
+
+.little-center {
+  font-family: Gelion, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 28px;
+  color: #415E56;
+  text-align: center;
+}
+
+.kapsayici {
+  margin: 100px 300px;
+}
+
+
+
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  
+}
+
+.fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+  
+}
+
+.row {
+  padding-bottom: 100px;
+}
+
+.footer {
+  margin: 100px 300px;
+
+}
+.alt-logo {
+  cursor: pointer;
+}
+
+
