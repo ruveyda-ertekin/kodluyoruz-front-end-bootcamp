@@ -35,5 +35,6 @@ for(var i=0;i<=45;i++){
     else{
         document.write(ad +" "+ i + " yaşındasın.");
     }
+    document.write ("<br>");
 
 }
