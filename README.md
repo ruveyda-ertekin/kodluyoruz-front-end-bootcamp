@@ -1,8 +1,6 @@
-# kodluyoruz-front-end-bootcamp
+# Kodluyoruz-front-end-bootcamp
 
 These are the Kodluyoruz-Front-End-Bootcamp projects.
-
-It is a part of Course 1: Developing Android Apps with Kotlin - Part 1
 
 * Project 01_01 (RegisterCard) is [here! ](https://codepen.io/ruveyda-ertekin/pen/zYKdJKE)
 * Project 02_01 (MediCard) is [here! ](https://codepen.io/ruveyda-ertekin/pen/QWKBEBj)
